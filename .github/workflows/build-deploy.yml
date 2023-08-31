@@ -84,5 +84,5 @@ jobs:
           password: ${{secrets.PROD_PASSWORD}}
           script: |
             cd fastapi/src
-            git pull
+            sudo git pull
             sudo systemctl restart fastapi
