@@ -43,4 +43,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Warum kommst du nicht in mein fastapi land. Read the docs"}
+    return {"message": "Jetzt läuft das mit CI und CD Integration"}
