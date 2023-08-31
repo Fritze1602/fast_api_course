@@ -80,8 +80,8 @@ jobs:
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{secrets.PROD_HOST}}
-          username: ${{ secrets.PROD_USERNAME}}
-          password: ${{ secrets.PROD_PASSWORD}}
+          username: ${{secrets.PROD_USERNAME}}
+          password: ${{secrets.PROD_PASSWORD}}
           script: |
             cd fastapi/src
             git pull
