@@ -43,4 +43,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Successfully deployed from CI CD Pipeline"}
+    return {"message": "Successfully deployed from CI CD Pipeline!!! Yeah"}
